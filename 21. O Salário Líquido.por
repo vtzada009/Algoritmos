@@ -5,10 +5,10 @@ programa {
     escreva("seu salario é R$",salario)
     leia(salario)
 
-    escreva("O desconto do INSS %", desconto)
+    escreva("O desconto do INSS R$", desconto)
     leia(desconto)
 
-    total = salario / desconto
+    total = salario - desconto
 
     escreva("Seu salario total R$", total)
 
